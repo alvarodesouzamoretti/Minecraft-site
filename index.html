@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft</title>
+    <style>
+        body {
+            background-image: url(images.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            min-height: 100vh;
+            margin: 0;
+            padding: 16px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .a {
+            background-color: #e4caa9;
+            border: 4px solid #373737;
+            box-shadow: inset 4px 4px 0px rgba(0, 0, 0, 0.25);
+            width: 100%;
+            max-width: 600px;
+            padding: 24px;
+            box-sizing: border-box;
+            color: #222222;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 0;
+            color: #222222;
+        }
+        .galeria {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 24px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .item {
+            flex: 1 1 180px;
+            max-width: 220px;
+            min-width: 0;
+        }
+        .item img {
+            width: 100%;
+            height: 180px;
+            object-fit: contain;
+            display: block;
+            margin: 0 auto;
+        }
+        .item h3 {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <h1>Minecraft Guia</h1>
+        <p>Minecraft é um jogo eletrônico sandbox de sobrevivência e construção criado originalmente por Markus "Notch" Persson e desenvolvido pela Mojang Studios (adquirida pela Microsoft em 2014). Lançado oficialmente em 2011 após sua fase alfa em 2009, tornou-se um dos jogos mais vendidos e influentes da história, permitindo explorar mundos gerados proceduralmente formados por blocos tridimensionais.</p>
+
+        <div class="galeria">
+            <div class="item">
+                <img src="notch.jpg" alt="Notch">
+                <h3>Notch antigo dono</h3>
+            </div>
+            <div class="item">
+                <img src="Mojang-Studios.jpg" alt="Mojang Studios">
+                <h3>Mojang-Studios dona atual</h3>
+            </div>
+                <h4>Principais edições e modos:</h4>
+                    <p>Java Edition: A edição clássica para PC (Windows, macOS e Linux), conhecida pelo suporte amplo a mods criados pela comunidade, servidores personalizados e mecânicas específicas.</p>
+                    <p>Bedrock Edition: Presente em consoles, dispositivos móveis (Android e iOS) e Windows, oferece jogo multiplataforma (cross-play), acesso ao Minecraft Marketplace e serviços como o Realms (incluindo opções como o Realms Pro para grupos maiores).</p>          
+                    <P>Modos de jogo principais: No modo Sobrevivência, o jogador coleta recursos, fabrica ferramentas, administra fome e enfrenta criaturas à noite; no Criativo, há acesso ilimitado a blocos e voo livre para construir sem restrições de perigo. Também existem dificuldades variadas (como Pacífica e Difícil) e modos como Aventura e Espectador.</P>
+                    
+        </div>
+    </div>
+</body>
+</html>
